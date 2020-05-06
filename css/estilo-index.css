@@ -131,10 +131,13 @@ fieldset{
     margin-top: 5px;
 }
   
+
 .tecnologia ul{
     margin: 40px ;
     text-align: center;
+    margin-left: 10px;
 }
+
 
 .cod-1{
     margin: 40px;
@@ -153,6 +156,7 @@ fieldset{
     background-color: #162028;
     margin: auto;
 }
+
 
 
 
