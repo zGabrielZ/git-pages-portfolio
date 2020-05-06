@@ -17,19 +17,45 @@
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+    </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+    </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+
 </head>
 <body>
-    <header class="cabecalho">
-        <div id="cabecalho-01">
-            <nav>
-                <ul>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#sobre-min">Sobre min</a></li>
-                    <li><a href="#contatos">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color:#2c3e50">
+        <a class="navbar-brand" href="#" style=color:white>Gabriel Ferreira</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+            </ul>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="#projetos" class="nav-link" style="color:white;"> Projetos</a>
+                </li>
+                <li>
+                    <a href="#sobre-min" class="nav-link" style="color:white;">Sobre mim</a>
+                </li>
+                <li>
+                    <a href="#contatos" class="nav-link" style="color:white;">Contatos</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <header class="cabecalho">
         <div class="titulo">
             <img class="img-eu" src="imagens/eu.jpg" alt="imagem gabriel">
             <h1>Gabriel Ferreira</h1>
@@ -37,144 +63,142 @@
         </div>
 
     </header>
+   <section id="projetos"> 
+    <article>
+        <header>
+            <h2>Projetos</h2>
+        </header>
 
-    <main>
-        <section id="projetos"> 
-            <article>
-                <header>
-                    <h2>Projetos</h2>
-                </header>
+        <div id="projetos-1">
+            <p>Cadastro de aluno em web, feito pela tecnologia JSF e Primefaces, além de cadastrar,
+                podemos ver uma lista de alunos e também o endereço da pessoa, e 
+                por fim podemos exportar os dados pelo Excel.
+            </p>
 
-                <div id="projetos-1">
-                    <p>Cadastro de aluno em web, feito pela tecnologia JSF e Primefaces, além de cadastrar,
-                        podemos ver uma lista de alunos e também o endereço da pessoa, e 
-                        por fim podemos exportar os dados pelo Excel.
-                    </p>
+            <div>
+            
+                <img class="card-img-top"
+                    data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                    alt="Thumbnail [100%x225]" src="imagens/consulta-alunos.png"
+                    data-holder-rendered="true"
+                    style="width: 100%;max-width: 100%; display: block;">
 
-                    <div class="teste">
-                        <div class="card">
-                            <img src="imagens/consulta-alunos.png" alt="foto1">
-                        </div>
-    
-                        <div class="card">
-                            <img src="imagens/consulta-endereco.png" alt="foto2">
-                        </div>
+                <img class="card-img-top"
+                            data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                            alt="Thumbnail [100%x225]" src="imagens/consulta-endereco.png"
+                            data-holder-rendered="true"
+                            style="width: 100%;max-width: 100%; display: block; margin-top: 50px;">                 
+              
 
-                        <div class="tecnologia">
-                            <ul>
-                                <li>Java</li>
-                                <li>JSF</li>
-                                <li>Primefaces</li>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                            </ul>
-                        </div>
-
-                        <div class="cod-1">
-                            <a href="https://github.com/zGabrielZ/projeto-jsf-primefaces" target="_blank">Código <i class="fab fa-github"></i></a>
-                        </div>
-                    </div>
+                <div class="tecnologia">
+                    <ul>
+                        <li>Java</li>
+                        <li>JSF</li>
+                        <li>Primefaces</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                    </ul>
                 </div>
 
-                <div id="projetos-2">
-                    <p>Sistema web feito em Java usando framework Spring Boot,
-                        usando a tecnologia Spring security para logar e deixa mais seguro a aplicação,
-                        esse sistema é um cadastro de aluno ou professor,
-                         além de cadastrar podemos excluir ou editar, adicionar vários telefones, 
-                         mostrar seu endereço, cadastra as matérias quanto quiser relacionado a 
-                         pessoa e por fim mostrando um gráfico de quantos alunos e professores tem, 
-                         usando CanvasJs. 
-                    </p>
+                <div class="cod-1">
+                    <a href="https://github.com/zGabrielZ/projeto-jsf-primefaces" target="_blank">Código <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
 
-                    <div class="teste2">
-                        <div class="card2">
-                            <img src="imagens/menu.PNG" alt="foto4">
-                        </div>
-    
-                        <div class="card2">
-                            <img src="imagens/grafico2.PNG" alt="foto5">
-                        </div>
-    
-                        <div class="tecnologia2">
-                            <ul>
-                                <li>Java</li>
-                                <li>Spring Boot</li>
-                                <li>Spring Security</li>
-                                <li>Thymeleaf</li>
-                                <li>HTML5</li>
-                                <li>CSS3</li>
-                                <li>JavaScript</li>
-                                <li>JQuery</li>
-                            </ul>
-                        </div>
-    
-    
-                        <div class="cod-1">
-                            <a href="https://github.com/zGabrielZ/sistemaweb-spring" target="_blank">Código <i class="fab fa-github"></i></a>
-                        </div>
-                    
-                    </div>
-                
+        <div id="projetos-2">
+            <p>Sistema web feito em Java usando framework Spring Boot,
+                usando a tecnologia Spring security para logar e deixa mais seguro a aplicação,
+                esse sistema é um cadastro de aluno ou professor,
+                 além de cadastrar podemos excluir ou editar, adicionar vários telefones, 
+                 mostrar seu endereço, cadastra as matérias quanto quiser relacionado a 
+                 pessoa e por fim mostrando um gráfico de quantos alunos e professores tem, 
+                 usando CanvasJs. 
+            </p>
+
+            <div>
+                <img class="card-img-top"
+                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                alt="Thumbnail [100%x225]" src="imagens/menu.PNG"
+                data-holder-rendered="true"
+                style="width: 483px;max-width: 483px; display: block; margin: 20px auto;">
+
+                <img class="card-img-top"
+                data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail"
+                alt="Thumbnail [100%x225]" src="imagens/grafico2.PNG"
+                data-holder-rendered="true"
+                style="width: 483px;max-width: 483px; display: block; margin: 20px auto;">
+
+                <div class="tecnologia2">
+                    <ul>
+                        <li>Java</li>
+                        <li>Spring Boot</li>
+                        <li>Spring Security</li>
+                        <li>Thymeleaf</li>
+                        <li>HTML5</li>
+                        <li>CSS3</li>
+                        <li>JavaScript</li>
+                        <li>JQuery</li>
+                    </ul>
                 </div>
 
-            </article>
-        </section>
 
-        <section id="sobre-min">
-            <article>
-                <header>
-                    <h2>Sobre min</h2>
-                </header>
+                <div class="cod-1">
+                    <a href="https://github.com/zGabrielZ/sistemaweb-spring" target="_blank">Código <i class="fab fa-github"></i></a>
+                </div>
+            
+            </div>
+        
+        </div>
+
+    </article>
+</section>
+
+<section id="sobre-min">
+    <article>
+        <header>
+            <h2>Sobre min</h2>
+        </header>
+        <p>
+            Sou estudante em engenharia da computação, 
+            durante toda minha infância sempre fui apaixonado por tecnologias, 
+            principalmente de como funciona o software e a todo momento tive a curiosidade
+            de como desenvolver sistemas complexos e resolver problema na qual posso ajudar,
+            e com isso entrei nessa área da computação, no decorrer da minha graduação 
+            foi apresentado a linguagem de programação junto com o banco de dados 
+            e com esse pequeno período de tempo me agradou bastante e 
+            por agora quero atuar como desenvolvedor web usando essas tecnologias inovadoras. 
+        </p>
+    </article>
+</section>
+
+<section id="contatos">
+    <article>
+        <header>
+            <h2>Disponível para oportunidades</h2>
+        </header>
+
+        <fieldset>
+            <address>
                 <p>
-                    Sou estudante em engenharia da computação, 
-                    durante toda minha infância sempre fui apaixonado por tecnologias, 
-                    principalmente de como funciona o software e a todo momento tive a curiosidade
-                    de como desenvolver sistemas complexos e resolver problema na qual posso ajudar,
-                    e com isso entrei nessa área da computação, no decorrer da minha graduação 
-                    foi apresentado a linguagem de programação junto com o banco de dados 
-                    e com esse pequeno período de tempo me agradou bastante e 
-                    por agora quero atuar como desenvolvedor web usando essas tecnologias inovadoras. 
+                    <span>Email : </span>
+                    ferreiragabriel2612@gmail.com
                 </p>
-            </article>
-        </section>
 
-        <section id="contatos">
-            <article>
-                <header>
-                    <h2>Disponível para oportunidades</h2>
-                </header>
+                <p>
+                    <span>Telefone : </span>
+                    11-21546487
+                </p>
 
-                <fieldset>
-                    <address>
-                        <p>
-                            <span>Email : </span>
-                            ferreiragabriel2612@gmail.com
-                        </p>
-
-                        <p>
-                            <span>Telefone : </span>
-                            11-21546487
-                        </p>
-
-                        <p>
-                            <span>Celular : </span>
-                            11-999755909
-                        </p>
-
-                        <p>
-                            <span>Endereço : </span>
-                        </p> 
-                    </address>
-                </fieldset>
-
-
-                <div class="maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467689.7971944828!2d-46.8754915172196!3d-23.68216038895823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce448183a461d1%3A0x9ba94b08ff335bae!2zU8OjbyBQYXVsbywgU1A!5e0!3m2!1spt-BR!2sbr!4v1586580608811!5m2!1spt-BR!2sbr" width="1079" height="460" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
-                </div>
-
-            </article>
-        </section>
-    </main>
+                <p>
+                    <span>Celular : </span>
+                    11-999755909
+                </p>
+            </address>
+        </fieldset>
+    </article>
+</section>
+</main>
 
     <footer class="footer-02">
         <p>Copyright &copy; Gabriel Ferreira</p>

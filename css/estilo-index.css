@@ -1,56 +1,13 @@
+.cabecalho{
+    margin: auto;
+    height: 500px;
+    background-image: linear-gradient(to bottom,#162028,rgb(100, 97, 97));
+    border-top: 1px solid black;
+}
+
 .titulo img{
     border-radius: 50%;
     height: 200px;
-}
-
-img{
-    height: 300px;
-}
-
-.cabecalho{
-    width: 80%;
-    margin: auto;
-    height: 450px;
-    background-image: linear-gradient(to bottom,#162028,rgb(100, 97, 97));
-}
-
-main,footer{
-    width: 80%;
-    margin: auto;
-}
-
-#cabecalho-01{
-    position: relative;
-    top: 0px;
-    padding-bottom: 40px;
-}
-
-#cabecalho-01 nav ul{
-    position: absolute;
-    top: -2px;
-    right: 50px;
-}
-
-#cabecalho-01 nav ul li{
-    margin-left: 20px;
-    display: inline-block;
-    list-style: none;
-    margin-top: auto;
-}
-
-#cabecalho-01 nav a{    
-    color: #4f5f6b;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 15px;
-    letter-spacing: 2px;
-    display: block;
-    padding: 10px;
-    transition: color 0.3s linear ;
-}
-  
-#cabecalho-01 nav a:hover {
-    color: white;
 }
 
 .titulo{
@@ -104,11 +61,13 @@ main,footer{
     color: #162028;
 }
 
-#projetos-1 p{
+#projetos-1,#projetos-2 p{
     font-size: 20px;
     text-align: center;
     color: #162028;
     padding-top: 30px;
+    width: 80%;
+    margin: auto;
 }
 
 footer{
@@ -120,7 +79,6 @@ footer{
 footer p{
     font-size: 15px;
     color: white;
-    letter-spacing: 2px;
     text-align: center;
     text-shadow: 1px 1px black;
     margin: auto;
@@ -139,33 +97,12 @@ fieldset{
     color: #162028;
     margin: auto;
 }
-
-.teste{
-    width: 80%;
-    margin: auto;
-}
-
-.teste2{
-    width: 80%;
-    margin: auto;
-}
-
-.card{
-    margin-top: 20px;
-}
-
-
-.card2{
-    margin-top: 20px;
-    text-align: center;
-}
-
-
 .tecnologia ul li{
     display: inline-block;
     list-style: none;
     border: 1px solid black;
     margin-left: 10px;
+    margin-top: 5px;
     background-color: #162028;
     color: white;
     text-shadow: 1px 1px black;
@@ -211,9 +148,11 @@ fieldset{
     padding-top: 30px;
 }
 
-
-
-
+.img-01{
+    width: 44%;
+    background-color: #162028;
+    margin: auto;
+}
 
 
 
