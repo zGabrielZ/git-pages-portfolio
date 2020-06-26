@@ -70,6 +70,16 @@
     margin: auto;
 }
 
+
+#projetos-3{
+    font-size: 20px;
+    text-align: center;
+    color: #162028;
+    padding-top: 30px;
+    width: 80%;
+    margin: auto;
+}
+
 footer{
     background-image: linear-gradient(to bottom,#162028,rgb(100, 97, 97));
     height: 80px;
