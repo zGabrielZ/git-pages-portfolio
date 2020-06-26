@@ -136,7 +136,7 @@ fieldset{
     padding: 20px;
     position: relative;
     width: 50%;
-    top: -308px;
+    top: -352px;
     left: 50%;
     text-align: left;
 }
@@ -145,12 +145,21 @@ fieldset{
     padding: 20px;
     position: relative;
     width: 50%;
-    top: -455px;
+    top: -500px;
     left: 50%;
     text-align: left;
 }
 
-.cod-2 ul li,.cod-1 ul li{
+.cod-3{
+    padding: 20px;
+    position: relative;
+    width: 50%;
+    top: -405px;
+    left: 50%;
+    text-align: left;
+}
+
+.cod-2 ul li,.cod-1 ul li,.cod-3 ul li{
     list-style: none;
 }
 
